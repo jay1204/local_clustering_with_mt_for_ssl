@@ -15,7 +15,7 @@ The network architecture is shown in Figure 2, where the local clustering regula
 </p>
 
 ### Requirements
-The code has been tested with
+The code has been tested with  
 python 3.5.2  
 pytorch 1.1.0  
 CUDA 9.0  
