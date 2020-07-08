@@ -48,7 +48,7 @@ svhn_params.num_workers = 4
 svhn_params.save_dir = 'experiment_results/models/'
 svhn_params.log_dir = 'experiment_results/logs/'
 svhn_params.valid_freq = 5
-svhn_params.train_num_label_examples = 500 # options are 500, 1000
+svhn_params.train_num_label_examples = 1000 # options are 500, 1000
 svhn_params.label_random_seed = 2
 
 svhn_params.mt_consistency_weight = 100.0
