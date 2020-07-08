@@ -5,13 +5,13 @@ This repository contains pytorch code for the paper Local Clustering with Mean T
 In this paper, we propose a local clustering method to address the confirmation bias existing in Mean Teacher method. Motivated by widely used local consistency assumption in SSL, where nearby samples are likely to have the same label, we consider the vicinity of each unlabeled data sample in feature space and enhance the connections between neighboring samples. We propose the regularizer loss term that eventually pulls unlabeled data samples towards high-density regions with the assistance of neighboring samples. This is done by penalizing the distance between neighboring samples' feature representations. The intuition is that the weight updates thence caused would affect the learned features to help the model pick up on new cues from those unlabeled data samples, hopefully in the form of class-specific discriminative features. This intuition is illustrated in Figure 1.
 
 <p align="center">
-    <img src="figure1.png" height="300" width= "400">
+    <img src="figure1.png" height="400" width= "500">
 </p>
 
 The network architecture is shown in Figure 2, where the local clustering regularizer is performed at the intermediate layer of the network.
 
 <p align="center">
-    <img src="figure2.png" height="400" width= "600">
+    <img src="figure2.png" height="600" width= "800">
 </p>
 
 ### Requirements
